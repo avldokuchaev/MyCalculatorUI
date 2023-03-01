@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B0B4756299846890023B5E8 /* BunnerStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0B4755299846880023B5E8 /* BunnerStyle.swift */; };
+		8B58545A2998212900429C4C /* MyCalculatorUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5854592998212900429C4C /* MyCalculatorUIApp.swift */; };
+		8B58545C2998212900429C4C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B58545B2998212900429C4C /* ContentView.swift */; };
+		8B58545E2998212E00429C4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B58545D2998212E00429C4C /* Assets.xcassets */; };
+		8B5854612998212E00429C4C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B5854602998212E00429C4C /* Preview Assets.xcassets */; };
+		8BB533192999805B00F31ECF /* NavigationMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB533182999805B00F31ECF /* NavigationMain.swift */; };
+		8BB5331B2999807A00F31ECF /* NavigationRasmerOdejdiDlyaVzroslih.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB5331A2999807A00F31ECF /* NavigationRasmerOdejdiDlyaVzroslih.swift */; };
+		8BB5331D2999808B00F31ECF /* NavigaciyaDetskayaOdejda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB5331C2999808B00F31ECF /* NavigaciyaDetskayaOdejda.swift */; };
+		8BB5331F2999809B00F31ECF /* NavigaciyaFinansovieCalculatori.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB5331E2999809B00F31ECF /* NavigaciyaFinansovieCalculatori.swift */; };
+		8BB53321299980AD00F31ECF /* NavigaciyaSportIZdorovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB53320299980AD00F31ECF /* NavigaciyaSportIZdorovie.swift */; };
+		8BB53323299980BB00F31ECF /* ShtrihKodi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB53322299980BB00F31ECF /* ShtrihKodi.swift */; };
+		8BB53325299983DE00F31ECF /* MujskayaOdejda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB53324299983DE00F31ECF /* MujskayaOdejda.swift */; };
+		8BB533272999842A00F31ECF /* MujskayaOdejdaBolshihRazmerov.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB533262999842A00F31ECF /* MujskayaOdejdaBolshihRazmerov.swift */; };
+		8BB533292999847100F31ECF /* MujskieDjinsi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB533282999847100F31ECF /* MujskieDjinsi.swift */; };
+		8BB5332B299984A600F31ECF /* MujskieSorochkiPoVorotnichku.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB5332A299984A600F31ECF /* MujskieSorochkiPoVorotnichku.swift */; };
+		8BB5332D299984F000F31ECF /* CalculatorAnnuitetniePlateji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB5332C299984F000F31ECF /* CalculatorAnnuitetniePlateji.swift */; };
+		8BB5332F2999851A00F31ECF /* MujskoeBelie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB5332E2999851A00F31ECF /* MujskoeBelie.swift */; };
+		8BB533312999854600F31ECF /* MujskieNoski.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB533302999854600F31ECF /* MujskieNoski.swift */; };
+		8BB533332999857C00F31ECF /* CalculatorVkladaBezKapitalizacii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB533322999857C00F31ECF /* CalculatorVkladaBezKapitalizacii.swift */; };
+		8BB53335299985AC00F31ECF /* JenskayaOdejda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB53334299985AC00F31ECF /* JenskayaOdejda.swift */; };
+		8BB53337299985D700F31ECF /* JenskayaOdejdaBolshihRazmerov.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB53336299985D700F31ECF /* JenskayaOdejdaBolshihRazmerov.swift */; };
+		8BB53339299985FF00F31ECF /* CalculatorVkladaSKapitalizaciei.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB53338299985FF00F31ECF /* CalculatorVkladaSKapitalizaciei.swift */; };
+		8BB5333B2999862D00F31ECF /* CalculatorDifferencirovanniePlateji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB5333A2999862D00F31ECF /* CalculatorDifferencirovanniePlateji.swift */; };
+		8BB5333D2999865A00F31ECF /* JenskieDjinsi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB5333C2999865A00F31ECF /* JenskieDjinsi.swift */; };
+		8BB5333F2999875D00F31ECF /* JenskoeBelie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB5333E2999875D00F31ECF /* JenskoeBelie.swift */; };
+		8BB533412999878C00F31ECF /* JenskieNoski.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB533402999878C00F31ECF /* JenskieNoski.swift */; };
+		8BB53343299987B100F31ECF /* DetskayaOdejdaDoSemiLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB53342299987B100F31ECF /* DetskayaOdejdaDoSemiLet.swift */; };
+		8BB53345299987CC00F31ECF /* OdejdaMalchikiDoVosemnadcatiLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB53344299987CC00F31ECF /* OdejdaMalchikiDoVosemnadcatiLet.swift */; };
+		8BB53347299987EA00F31ECF /* OdejdaDevochkiDoVosemnadcatiLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB53346299987EA00F31ECF /* OdejdaDevochkiDoVosemnadcatiLet.swift */; };
+		8BB533492999880700F31ECF /* DetskayaObuvDoOdnogoGoda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB533482999880700F31ECF /* DetskayaObuvDoOdnogoGoda.swift */; };
+		8BB5334B2999882800F31ECF /* DetskayaObuvOtOdnogoGodaDoShestiLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB5334A2999882800F31ECF /* DetskayaObuvOtOdnogoGodaDoShestiLet.swift */; };
+		8BB5334D2999884400F31ECF /* PodrostkovayaObuv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB5334C2999884400F31ECF /* PodrostkovayaObuv.swift */; };
+		8BB5334F2999886100F31ECF /* JenskayaObuv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB5334E2999886100F31ECF /* JenskayaObuv.swift */; };
+		8BB533512999888000F31ECF /* MujskayaObuv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB533502999888000F31ECF /* MujskayaObuv.swift */; };
+		8BB53353299988A000F31ECF /* CalculatoIndexaMassiTela.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB53352299988A000F31ECF /* CalculatoIndexaMassiTela.swift */; };
+		8BB53355299988BD00F31ECF /* CalculatorPloshadiPoverhnostiTela.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB53354299988BD00F31ECF /* CalculatorPloshadiPoverhnostiTela.swift */; };
+		8BB53357299988D900F31ECF /* PredpolagaemayaDataRodov.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB53356299988D900F31ECF /* PredpolagaemayaDataRodov.swift */; };
+		8BB53359299988F400F31ECF /* CalculatorKalorii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB53358299988F400F31ECF /* CalculatorKalorii.swift */; };
+		8BB5335B2999891200F31ECF /* CalculatorIdealnogoVesa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB5335A2999891200F31ECF /* CalculatorIdealnogoVesa.swift */; };
+		8BB5335D2999892E00F31ECF /* CalculatorPolnogoMaksimuma.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB5335C2999892E00F31ECF /* CalculatorPolnogoMaksimuma.swift */; };
+		8BB5335F2999895200F31ECF /* CalculatorPovtorenii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB5335E2999895200F31ECF /* CalculatorPovtorenii.swift */; };
+		8BB533612999897000F31ECF /* CalculatorRabochegoVesa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB533602999897000F31ECF /* CalculatorRabochegoVesa.swift */; };
+		8BB53363299989AF00F31ECF /* Obrasec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB53362299989AF00F31ECF /* Obrasec.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8B0B4755299846880023B5E8 /* BunnerStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BunnerStyle.swift; sourceTree = "<group>"; };
+		8B5854562998212900429C4C /* МоиКалькуляторы.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "МоиКалькуляторы.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B5854592998212900429C4C /* MyCalculatorUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCalculatorUIApp.swift; sourceTree = "<group>"; };
+		8B58545B2998212900429C4C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8B58545D2998212E00429C4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B5854602998212E00429C4C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8BB533182999805B00F31ECF /* NavigationMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationMain.swift; sourceTree = "<group>"; };
+		8BB5331A2999807A00F31ECF /* NavigationRasmerOdejdiDlyaVzroslih.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationRasmerOdejdiDlyaVzroslih.swift; sourceTree = "<group>"; };
+		8BB5331C2999808B00F31ECF /* NavigaciyaDetskayaOdejda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigaciyaDetskayaOdejda.swift; sourceTree = "<group>"; };
+		8BB5331E2999809B00F31ECF /* NavigaciyaFinansovieCalculatori.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigaciyaFinansovieCalculatori.swift; sourceTree = "<group>"; };
+		8BB53320299980AD00F31ECF /* NavigaciyaSportIZdorovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigaciyaSportIZdorovie.swift; sourceTree = "<group>"; };
+		8BB53322299980BB00F31ECF /* ShtrihKodi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShtrihKodi.swift; sourceTree = "<group>"; };
+		8BB53324299983DE00F31ECF /* MujskayaOdejda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MujskayaOdejda.swift; sourceTree = "<group>"; };
+		8BB533262999842A00F31ECF /* MujskayaOdejdaBolshihRazmerov.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MujskayaOdejdaBolshihRazmerov.swift; sourceTree = "<group>"; };
+		8BB533282999847100F31ECF /* MujskieDjinsi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MujskieDjinsi.swift; sourceTree = "<group>"; };
+		8BB5332A299984A600F31ECF /* MujskieSorochkiPoVorotnichku.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MujskieSorochkiPoVorotnichku.swift; sourceTree = "<group>"; };
+		8BB5332C299984F000F31ECF /* CalculatorAnnuitetniePlateji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorAnnuitetniePlateji.swift; sourceTree = "<group>"; };
+		8BB5332E2999851A00F31ECF /* MujskoeBelie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MujskoeBelie.swift; sourceTree = "<group>"; };
+		8BB533302999854600F31ECF /* MujskieNoski.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MujskieNoski.swift; sourceTree = "<group>"; };
+		8BB533322999857C00F31ECF /* CalculatorVkladaBezKapitalizacii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorVkladaBezKapitalizacii.swift; sourceTree = "<group>"; };
+		8BB53334299985AC00F31ECF /* JenskayaOdejda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JenskayaOdejda.swift; sourceTree = "<group>"; };
+		8BB53336299985D700F31ECF /* JenskayaOdejdaBolshihRazmerov.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JenskayaOdejdaBolshihRazmerov.swift; sourceTree = "<group>"; };
+		8BB53338299985FF00F31ECF /* CalculatorVkladaSKapitalizaciei.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorVkladaSKapitalizaciei.swift; sourceTree = "<group>"; };
+		8BB5333A2999862D00F31ECF /* CalculatorDifferencirovanniePlateji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorDifferencirovanniePlateji.swift; sourceTree = "<group>"; };
+		8BB5333C2999865A00F31ECF /* JenskieDjinsi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JenskieDjinsi.swift; sourceTree = "<group>"; };
+		8BB5333E2999875D00F31ECF /* JenskoeBelie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JenskoeBelie.swift; sourceTree = "<group>"; };
+		8BB533402999878C00F31ECF /* JenskieNoski.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JenskieNoski.swift; sourceTree = "<group>"; };
+		8BB53342299987B100F31ECF /* DetskayaOdejdaDoSemiLet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetskayaOdejdaDoSemiLet.swift; sourceTree = "<group>"; };
+		8BB53344299987CC00F31ECF /* OdejdaMalchikiDoVosemnadcatiLet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OdejdaMalchikiDoVosemnadcatiLet.swift; sourceTree = "<group>"; };
+		8BB53346299987EA00F31ECF /* OdejdaDevochkiDoVosemnadcatiLet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OdejdaDevochkiDoVosemnadcatiLet.swift; sourceTree = "<group>"; };
+		8BB533482999880700F31ECF /* DetskayaObuvDoOdnogoGoda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetskayaObuvDoOdnogoGoda.swift; sourceTree = "<group>"; };
+		8BB5334A2999882800F31ECF /* DetskayaObuvOtOdnogoGodaDoShestiLet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetskayaObuvOtOdnogoGodaDoShestiLet.swift; sourceTree = "<group>"; };
+		8BB5334C2999884400F31ECF /* PodrostkovayaObuv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodrostkovayaObuv.swift; sourceTree = "<group>"; };
+		8BB5334E2999886100F31ECF /* JenskayaObuv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JenskayaObuv.swift; sourceTree = "<group>"; };
+		8BB533502999888000F31ECF /* MujskayaObuv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MujskayaObuv.swift; sourceTree = "<group>"; };
+		8BB53352299988A000F31ECF /* CalculatoIndexaMassiTela.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatoIndexaMassiTela.swift; sourceTree = "<group>"; };
+		8BB53354299988BD00F31ECF /* CalculatorPloshadiPoverhnostiTela.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorPloshadiPoverhnostiTela.swift; sourceTree = "<group>"; };
+		8BB53356299988D900F31ECF /* PredpolagaemayaDataRodov.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredpolagaemayaDataRodov.swift; sourceTree = "<group>"; };
+		8BB53358299988F400F31ECF /* CalculatorKalorii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorKalorii.swift; sourceTree = "<group>"; };
+		8BB5335A2999891200F31ECF /* CalculatorIdealnogoVesa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorIdealnogoVesa.swift; sourceTree = "<group>"; };
+		8BB5335C2999892E00F31ECF /* CalculatorPolnogoMaksimuma.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorPolnogoMaksimuma.swift; sourceTree = "<group>"; };
+		8BB5335E2999895200F31ECF /* CalculatorPovtorenii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorPovtorenii.swift; sourceTree = "<group>"; };
+		8BB533602999897000F31ECF /* CalculatorRabochegoVesa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorRabochegoVesa.swift; sourceTree = "<group>"; };
+		8BB53362299989AF00F31ECF /* Obrasec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Obrasec.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B5854532998212900429C4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B58544D2998212800429C4C = {
+			isa = PBXGroup;
+			children = (
+				8B5854582998212900429C4C /* MyCalculatorUI */,
+				8B5854572998212900429C4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B5854572998212900429C4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B5854562998212900429C4C /* МоиКалькуляторы.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B5854582998212900429C4C /* MyCalculatorUI */ = {
+			isa = PBXGroup;
+			children = (
+				8B5854592998212900429C4C /* MyCalculatorUIApp.swift */,
+				8B58545B2998212900429C4C /* ContentView.swift */,
+				8BB53362299989AF00F31ECF /* Obrasec.swift */,
+				8BB533602999897000F31ECF /* CalculatorRabochegoVesa.swift */,
+				8BB5335E2999895200F31ECF /* CalculatorPovtorenii.swift */,
+				8BB5335C2999892E00F31ECF /* CalculatorPolnogoMaksimuma.swift */,
+				8BB5335A2999891200F31ECF /* CalculatorIdealnogoVesa.swift */,
+				8BB53358299988F400F31ECF /* CalculatorKalorii.swift */,
+				8BB53356299988D900F31ECF /* PredpolagaemayaDataRodov.swift */,
+				8BB53354299988BD00F31ECF /* CalculatorPloshadiPoverhnostiTela.swift */,
+				8BB53352299988A000F31ECF /* CalculatoIndexaMassiTela.swift */,
+				8BB533502999888000F31ECF /* MujskayaObuv.swift */,
+				8BB5334E2999886100F31ECF /* JenskayaObuv.swift */,
+				8BB5334C2999884400F31ECF /* PodrostkovayaObuv.swift */,
+				8BB5334A2999882800F31ECF /* DetskayaObuvOtOdnogoGodaDoShestiLet.swift */,
+				8BB533482999880700F31ECF /* DetskayaObuvDoOdnogoGoda.swift */,
+				8BB53346299987EA00F31ECF /* OdejdaDevochkiDoVosemnadcatiLet.swift */,
+				8BB53344299987CC00F31ECF /* OdejdaMalchikiDoVosemnadcatiLet.swift */,
+				8BB53342299987B100F31ECF /* DetskayaOdejdaDoSemiLet.swift */,
+				8BB533402999878C00F31ECF /* JenskieNoski.swift */,
+				8BB5333E2999875D00F31ECF /* JenskoeBelie.swift */,
+				8BB5333C2999865A00F31ECF /* JenskieDjinsi.swift */,
+				8BB5333A2999862D00F31ECF /* CalculatorDifferencirovanniePlateji.swift */,
+				8BB53338299985FF00F31ECF /* CalculatorVkladaSKapitalizaciei.swift */,
+				8BB53336299985D700F31ECF /* JenskayaOdejdaBolshihRazmerov.swift */,
+				8BB53334299985AC00F31ECF /* JenskayaOdejda.swift */,
+				8BB533322999857C00F31ECF /* CalculatorVkladaBezKapitalizacii.swift */,
+				8BB533302999854600F31ECF /* MujskieNoski.swift */,
+				8BB5332E2999851A00F31ECF /* MujskoeBelie.swift */,
+				8BB5332C299984F000F31ECF /* CalculatorAnnuitetniePlateji.swift */,
+				8BB5332A299984A600F31ECF /* MujskieSorochkiPoVorotnichku.swift */,
+				8BB533282999847100F31ECF /* MujskieDjinsi.swift */,
+				8BB533262999842A00F31ECF /* MujskayaOdejdaBolshihRazmerov.swift */,
+				8BB53324299983DE00F31ECF /* MujskayaOdejda.swift */,
+				8BB53322299980BB00F31ECF /* ShtrihKodi.swift */,
+				8BB53320299980AD00F31ECF /* NavigaciyaSportIZdorovie.swift */,
+				8BB5331E2999809B00F31ECF /* NavigaciyaFinansovieCalculatori.swift */,
+				8BB5331C2999808B00F31ECF /* NavigaciyaDetskayaOdejda.swift */,
+				8BB5331A2999807A00F31ECF /* NavigationRasmerOdejdiDlyaVzroslih.swift */,
+				8BB533182999805B00F31ECF /* NavigationMain.swift */,
+				8B0B4755299846880023B5E8 /* BunnerStyle.swift */,
+				8B58545D2998212E00429C4C /* Assets.xcassets */,
+				8B58545F2998212E00429C4C /* Preview Content */,
+			);
+			path = MyCalculatorUI;
+			sourceTree = "<group>";
+		};
+		8B58545F2998212E00429C4C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8B5854602998212E00429C4C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B5854552998212900429C4C /* Мои калькуляторы */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B5854642998212E00429C4C /* Build configuration list for PBXNativeTarget "Мои калькуляторы" */;
+			buildPhases = (
+				8B5854522998212900429C4C /* Sources */,
+				8B5854532998212900429C4C /* Frameworks */,
+				8B5854542998212900429C4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Мои калькуляторы";
+			productName = MyCalculatorUI;
+			productReference = 8B5854562998212900429C4C /* МоиКалькуляторы.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B58544E2998212800429C4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					8B5854552998212900429C4C = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 8B5854512998212800429C4C /* Build configuration list for PBXProject "Мои калькуляторы" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B58544D2998212800429C4C;
+			productRefGroup = 8B5854572998212900429C4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B5854552998212900429C4C /* Мои калькуляторы */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B5854542998212900429C4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B5854612998212E00429C4C /* Preview Assets.xcassets in Resources */,
+				8B58545E2998212E00429C4C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B5854522998212900429C4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BB5333B2999862D00F31ECF /* CalculatorDifferencirovanniePlateji.swift in Sources */,
+				8BB5333F2999875D00F31ECF /* JenskoeBelie.swift in Sources */,
+				8BB53347299987EA00F31ECF /* OdejdaDevochkiDoVosemnadcatiLet.swift in Sources */,
+				8BB53359299988F400F31ECF /* CalculatorKalorii.swift in Sources */,
+				8BB53321299980AD00F31ECF /* NavigaciyaSportIZdorovie.swift in Sources */,
+				8BB53343299987B100F31ECF /* DetskayaOdejdaDoSemiLet.swift in Sources */,
+				8BB53325299983DE00F31ECF /* MujskayaOdejda.swift in Sources */,
+				8BB53337299985D700F31ECF /* JenskayaOdejdaBolshihRazmerov.swift in Sources */,
+				8BB5331D2999808B00F31ECF /* NavigaciyaDetskayaOdejda.swift in Sources */,
+				8BB533292999847100F31ECF /* MujskieDjinsi.swift in Sources */,
+				8BB5331F2999809B00F31ECF /* NavigaciyaFinansovieCalculatori.swift in Sources */,
+				8BB533612999897000F31ECF /* CalculatorRabochegoVesa.swift in Sources */,
+				8BB533332999857C00F31ECF /* CalculatorVkladaBezKapitalizacii.swift in Sources */,
+				8BB53357299988D900F31ECF /* PredpolagaemayaDataRodov.swift in Sources */,
+				8BB53335299985AC00F31ECF /* JenskayaOdejda.swift in Sources */,
+				8BB5334D2999884400F31ECF /* PodrostkovayaObuv.swift in Sources */,
+				8BB533412999878C00F31ECF /* JenskieNoski.swift in Sources */,
+				8BB533512999888000F31ECF /* MujskayaObuv.swift in Sources */,
+				8BB5332F2999851A00F31ECF /* MujskoeBelie.swift in Sources */,
+				8BB533192999805B00F31ECF /* NavigationMain.swift in Sources */,
+				8BB5332D299984F000F31ECF /* CalculatorAnnuitetniePlateji.swift in Sources */,
+				8BB53353299988A000F31ECF /* CalculatoIndexaMassiTela.swift in Sources */,
+				8BB53363299989AF00F31ECF /* Obrasec.swift in Sources */,
+				8BB53355299988BD00F31ECF /* CalculatorPloshadiPoverhnostiTela.swift in Sources */,
+				8BB5335D2999892E00F31ECF /* CalculatorPolnogoMaksimuma.swift in Sources */,
+				8B0B4756299846890023B5E8 /* BunnerStyle.swift in Sources */,
+				8BB533312999854600F31ECF /* MujskieNoski.swift in Sources */,
+				8BB5335B2999891200F31ECF /* CalculatorIdealnogoVesa.swift in Sources */,
+				8BB5335F2999895200F31ECF /* CalculatorPovtorenii.swift in Sources */,
+				8BB5334F2999886100F31ECF /* JenskayaObuv.swift in Sources */,
+				8BB53345299987CC00F31ECF /* OdejdaMalchikiDoVosemnadcatiLet.swift in Sources */,
+				8BB5331B2999807A00F31ECF /* NavigationRasmerOdejdiDlyaVzroslih.swift in Sources */,
+				8B58545C2998212900429C4C /* ContentView.swift in Sources */,
+				8BB533272999842A00F31ECF /* MujskayaOdejdaBolshihRazmerov.swift in Sources */,
+				8BB53339299985FF00F31ECF /* CalculatorVkladaSKapitalizaciei.swift in Sources */,
+				8BB533492999880700F31ECF /* DetskayaObuvDoOdnogoGoda.swift in Sources */,
+				8BB5332B299984A600F31ECF /* MujskieSorochkiPoVorotnichku.swift in Sources */,
+				8BB5334B2999882800F31ECF /* DetskayaObuvOtOdnogoGodaDoShestiLet.swift in Sources */,
+				8BB53323299980BB00F31ECF /* ShtrihKodi.swift in Sources */,
+				8BB5333D2999865A00F31ECF /* JenskieDjinsi.swift in Sources */,
+				8B58545A2998212900429C4C /* MyCalculatorUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8B5854622998212E00429C4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B5854632998212E00429C4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B5854652998212E00429C4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyCalculatorUI/Preview Content\"";
+				DEVELOPMENT_TEAM = Z7K69M5DFS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.8;
+				PRODUCT_BUNDLE_IDENTIFIER = "Andrei-Dokuchaev.MyCalculators";
+				PRODUCT_NAME = "МоиКалькуляторы";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B5854662998212E00429C4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyCalculatorUI/Preview Content\"";
+				DEVELOPMENT_TEAM = Z7K69M5DFS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.8;
+				PRODUCT_BUNDLE_IDENTIFIER = "Andrei-Dokuchaev.MyCalculators";
+				PRODUCT_NAME = "МоиКалькуляторы";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B5854512998212800429C4C /* Build configuration list for PBXProject "Мои калькуляторы" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B5854622998212E00429C4C /* Debug */,
+				8B5854632998212E00429C4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B5854642998212E00429C4C /* Build configuration list for PBXNativeTarget "Мои калькуляторы" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B5854652998212E00429C4C /* Debug */,
+				8B5854662998212E00429C4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B58544E2998212800429C4C /* Project object */;
+}

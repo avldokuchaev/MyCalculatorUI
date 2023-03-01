@@ -1,30 +1,13 @@
 //
-//  ContentView.swift
+//  BunnerStyle.swift
 //  MyCalculatorUI
 //
-//  Created by Andrei Dokuchaev on 11.02.2023.
-//
+//  Created by Andrei Dokuchaev on 12.02.2023.
+// Стиль баннера ротатора
 
 import SwiftUI
 
-extension String {
-    static let numberFormatter = NumberFormatter()
-    var doubleValue: Double {
-        String.numberFormatter.decimalSeparator = "."
-        if let result =  String.numberFormatter.number(from: self) {
-            return result.doubleValue
-        } else {
-            String.numberFormatter.decimalSeparator = ","
-            if let result = String.numberFormatter.number(from: self) {
-                return result.doubleValue
-            }
-        }
-        return 0
-    }
-}
-
-// Картинки и ссылки баннера
-let images = [
+/*let images = [
     ["image" : "Agrokomplexshop", "url" : "https://aflink.ru/g/lkj8u73nnd31225e5a7704cb4947eb/"],
     ["image" : "allradru", "url" : "https://aflink.ru/g/elgf718etq31225e5a770e020ad620/?erid=LatgBUcjU"],
     ["image" : "Baggins", "url" : "https://aflink.ru/g/m33u5flihp31225e5a7787b20ecef3/?erid=LatgBgkRu"],
@@ -94,85 +77,17 @@ let images = [
     ["image" : "YESEducationGroup", "url" : "https://aflink.ru/g/tfogdtvvuf31225e5a772019e44728/"]
 ]
 
+ let imag = images.randomElement()
 
-// Главная страница
-
-struct ContentView: View {
-    
-    
-     private let imag = images.randomElement()
-    
-    struct BunnerButton: ButtonStyle {
-        let img: Image
-       
-        func makeBody(configuration: Configuration) -> some View {
-            configuration.label
-            img
-            .renderingMode(.original)
-            .frame(width: 300, height: 38)
-        }
-        
+struct BunnerButton: ButtonStyle {
+    let img: Image
+   
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label
+        img
+        .renderingMode(.original)
+        .frame(width: 300, height: 38)
     }
     
-    @State private var showsDetailViewController = false
-    
-    var body: some View {
-       
-        ZStack {
-            Color.yellow
-                .edgesIgnoringSafeArea(.all)
-            VStack {
-                Button("") {
-                    UIApplication.shared.open(URL(string: imag!["url"]!)!)
-                }
-                .buttonStyle(BunnerButton(img: Image(imag!["image"]!)))
-
-                .background(.yellow)
-                
-                Spacer()
-//__________________________________________________
-                
-                
-                Text("Здравствуйте, уважаемые пользователи! \n В нашем приложении вы найдете полезные инструменты для повседневной жизни. Вы сможете рассчитать платежи по кредиту, доход по вкладу, сравнить размеры одежды, рассчитать индекс массы тела, потребность в калориях и многое другое. \n Следите за обновлениями!")
-                    .fontWeight(.bold)
-                    .multilineTextAlignment(.leading)
-                    .padding(/*@START_MENU_TOKEN@*/.horizontal, 10.0/*@END_MENU_TOKEN@*/)
-                
-                Spacer()
-                    
-                Button("ПЕРЕЙТИ В МЕНЮ") {
-                    
-                    showsDetailViewController.toggle()
-                }
-                .padding()
-                .background(.blue)
-                .cornerRadius(10.0)
-                .foregroundColor(.white)
-                .sheet(isPresented: $showsDetailViewController) {
-                    NavigationMain()
-                }
-                
-                Spacer()
-                
-                Image("bit")
-                    .resizable(resizingMode: .stretch)
-                    
-            }
-        }
-        
-   }
-     
 }
-
-    struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView().previewDevice("iPhone SE (2nd generation)")
-    }
-}
-
-extension View {
-    func hideKeyboard() {
-        let resign = #selector(UIResponder.resignFirstResponder)
-        UIApplication.shared.sendAction(resign, to: nil, from: nil, for: nil)
-    }
-}
+*/
